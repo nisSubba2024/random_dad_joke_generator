@@ -82,7 +82,13 @@ body {
 }
 
 @media (max-width: 600px) {
-    body {
-        padding: 3rem;
+
+    html {
+        font-size: 50%;
     }
+
+    .body-wrapper {
+        max-width: 35rem;
+    }
+
 }
